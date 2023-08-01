@@ -33,6 +33,10 @@ def game():
             print("You Won!")
             print(f"The Number Was {num}")
             return
+        elif guess > num:
+            print("Nope Too High")
+        elif guess < num:
+            print("Nope Too Low")    
 
 
     print("Oh no! All Your Chances Are Over...You Loose")
